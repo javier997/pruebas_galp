@@ -1,0 +1,15 @@
+
+
+<div id="widgetChatBot"></div>
+
+<script type="text/javascript" src="https://turismodecanarias.com/chatbot/w-ChatBot/js/w-chat-ChatBot.js"></script>
+		<script type="text/javascript">
+
+			var chatBot = new ChatBot({
+				serverUrl: "https://turismodecanarias.com/chatbot/",
+				targetID: 'widgetChatBot',
+				lang: 'es',
+                template: 'default'
+			});
+
+		</script>

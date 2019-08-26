@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>ESTAS EN LA PAGINA 2 </title>
+		<style>
+			body {
+				margin: 0;
+				background-image: url("https://www.holaislascanarias.com/sites/default/files/backgrounds/playas_rubia_piedrecitas_0.jpg");
+			}
+			
+		</style>
+		<script type="text/javascript" src="//pre.holaislascanarias.com/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+	</head>
+	<body >
+
+		<h1>ESTAS EN LA PAGINA 2</h1>
+		<div id="widgetChatBot" ></div>
+		<a href="http://localhost:8080/chatbot-desa/index-3.html" >VAMOS a la pagina 3</a><br />
+		<a href="http://localhost:8080/chatbot-desa/index-1.html" >VOLVEMOS a la pagina 1</a>
+		<script type="text/javascript" src="http://localhost:8080/chatbot-desa/w-ChatBot/js/w-chat-ChatBot.js"></script>
+		<script type="text/javascript">
+
+			var chatBot = new ChatBot({
+				serverUrl: "http://localhost:8080/chatbot-desa/",
+				targetID: 'widgetChatBot',
+				lang: 'es',
+                template: 'default',
+			});
+
+		</script>
+		
+	</body>
+</html>
